@@ -1,0 +1,10 @@
+dubbo:
+  application:
+    name: point-engine-service
+  protocol:
+    name: dubbo
+    port: 20881  # This port will expose the service
+  provider:
+    timeout: 3000  # Timeout settings for provider services
+  registry:
+    address: multicast://224.5.6.7:1234  # No registry is being used
